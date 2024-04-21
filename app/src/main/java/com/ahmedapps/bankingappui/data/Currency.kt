@@ -1,4 +1,4 @@
-package com.ahmedapps.bankningappui.data
+package com.ahmedapps.bankingappui.data
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

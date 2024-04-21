@@ -1,4 +1,4 @@
-package com.ahmedapps.bankningappui
+package com.ahmedapps.bankingappui
 
 import org.junit.Test
 

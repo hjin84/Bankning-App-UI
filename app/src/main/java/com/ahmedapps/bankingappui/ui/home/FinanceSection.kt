@@ -1,4 +1,4 @@
-package com.ahmedapps.bankningappui.ui.home
+package com.ahmedapps.bankingappui.ui.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -24,11 +24,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.ahmedapps.bankningappui.data.Finance
-import com.ahmedapps.bankningappui.ui.theme.BlueStart
-import com.ahmedapps.bankningappui.ui.theme.GreenStart
-import com.ahmedapps.bankningappui.ui.theme.OrangeStart
-import com.ahmedapps.bankningappui.ui.theme.PurpleStart
+import com.ahmedapps.bankingappui.data.Finance
+import com.ahmedapps.bankingappui.ui.theme.BlueStart
+import com.ahmedapps.bankingappui.ui.theme.GreenStart
+import com.ahmedapps.bankingappui.ui.theme.OrangeStart
+import com.ahmedapps.bankingappui.ui.theme.PurpleStart
 
 val financeList = listOf(
     Finance(

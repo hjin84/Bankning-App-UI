@@ -1,4 +1,4 @@
-package com.ahmedapps.bankningappui.ui.navigation
+package com.ahmedapps.bankingappui.ui.navigation
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
@@ -15,7 +15,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
-import com.ahmedapps.bankningappui.data.BottomNavigation
+import com.ahmedapps.bankingappui.data.BottomNavigation
 
 val items = listOf(
     BottomNavigation(

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ahmedapps.bankningappui"
+    namespace = "com.ahmedapps.bankingappui"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.ahmedapps.bankningappui"
+        applicationId = "com.ahmedapps.bankingappui"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -50,6 +50,7 @@ android {
 }
 
 dependencies {
+    val nav_version = "2.7.7"
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
@@ -73,6 +74,9 @@ dependencies {
 
     // Extended Icons
     implementation("androidx.compose.material:material-icons-extended:1.5.4")
+
+    // Jetpack Compose Integration
+    implementation("androidx.navigation:navigation-compose:$nav_version")
 }
 
 

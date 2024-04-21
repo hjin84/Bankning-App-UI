@@ -1,4 +1,4 @@
-package com.ahmedapps.bankningappui.ui.home.wallet
+package com.ahmedapps.bankingappui.ui.home.wallet
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -8,8 +8,8 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
-import com.ahmedapps.bankningappui.ui.navigation.BottomNavigationBar
-import com.ahmedapps.bankningappui.ui.home.WalletSection
+import com.ahmedapps.bankingappui.ui.navigation.BottomNavigationBar
+import com.ahmedapps.bankingappui.ui.home.WalletSection
 
 
 @OptIn(ExperimentalMaterial3Api::class)

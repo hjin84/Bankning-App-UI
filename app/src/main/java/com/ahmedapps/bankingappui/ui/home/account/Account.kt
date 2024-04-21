@@ -1,4 +1,4 @@
-package com.ahmedapps.bankningappui.ui.home.account
+package com.ahmedapps.bankingappui.ui.home.account
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -11,9 +11,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import com.ahmedapps.bankningappui.ui.navigation.BottomNavigationBar
-import com.ahmedapps.bankningappui.ui.home.FinanceSection
-import com.ahmedapps.bankningappui.ui.home.WalletSection
+import com.ahmedapps.bankingappui.ui.navigation.BottomNavigationBar
+import com.ahmedapps.bankingappui.ui.home.FinanceSection
+import com.ahmedapps.bankingappui.ui.home.WalletSection
 
 
 @OptIn(ExperimentalMaterial3Api::class)

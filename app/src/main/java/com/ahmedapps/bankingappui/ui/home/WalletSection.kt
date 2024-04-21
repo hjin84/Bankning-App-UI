@@ -1,4 +1,4 @@
-package com.ahmedapps.bankningappui.ui.home
+package com.ahmedapps.bankingappui.ui.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

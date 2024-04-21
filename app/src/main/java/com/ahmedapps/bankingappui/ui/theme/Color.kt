@@ -1,4 +1,4 @@
-package com.ahmedapps.bankningappui.ui.theme
+package com.ahmedapps.bankingappui.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
