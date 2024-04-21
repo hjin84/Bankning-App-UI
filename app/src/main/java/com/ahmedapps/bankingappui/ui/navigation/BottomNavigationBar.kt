@@ -1,6 +1,5 @@
-package com.ahmedapps.bankningappui
+package com.ahmedapps.bankningappui.ui.navigation
 
-import android.graphics.drawable.Icon
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material.icons.Icons
@@ -15,7 +14,7 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.NavHostController
 import com.ahmedapps.bankningappui.data.BottomNavigation
 
 val items = listOf(
@@ -40,9 +39,8 @@ val items = listOf(
     )
 )
 
-@Preview
 @Composable
-fun BottomNavigationBar() {
+fun BottomNavigationBar(navController: NavHostController) {
     NavigationBar {
         Row(
             modifier = Modifier.background(MaterialTheme.colorScheme.inverseOnSurface)
@@ -51,7 +49,9 @@ fun BottomNavigationBar() {
             items.forEachIndexed { index, item ->
                 NavigationBarItem(
                     selected = index == 0,
-                    onClick = {},
+                    onClick = {
+                        navController.navigate(item.title)
+                    },
                     icon = {
                         Icon(
                             imageVector = item.icon,

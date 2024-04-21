@@ -1,4 +1,4 @@
-package com.ahmedapps.bankningappui
+package com.ahmedapps.bankningappui.ui.home
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -23,6 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.ahmedapps.bankningappui.R
 import com.ahmedapps.bankningappui.data.Card
 import com.ahmedapps.bankningappui.ui.theme.BlueEnd
 import com.ahmedapps.bankningappui.ui.theme.BlueStart

@@ -1,6 +1,5 @@
-package com.ahmedapps.bankningappui
+package com.ahmedapps.bankningappui.ui.home
 
-import android.graphics.drawable.Icon
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

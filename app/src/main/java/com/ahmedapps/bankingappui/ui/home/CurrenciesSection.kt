@@ -1,4 +1,4 @@
-package com.ahmedapps.bankningappui
+package com.ahmedapps.bankningappui.ui.home
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
